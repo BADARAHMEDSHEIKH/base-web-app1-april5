@@ -36,5 +36,5 @@ jobs:
       -  run: 
           npm install -g surge
            - name : deploy on surge 
-           - run : surge ./  http://badar-april5.surge.sh/ --token ${(secrets.SURGE_TOKEN)} 
+           - run : surge ./  http://badar1-april5.surge.sh/ --token ${(secrets.SURGE_TOKEN)} 
             
